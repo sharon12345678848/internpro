@@ -1,0 +1,541 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f9f9f9;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+   
+}
+.imglog{
+    height:40px;
+    width: 40px;;
+}
+
+.logo-img {
+    width: 60px;
+    height: auto;
+}
+
+.logo-text {
+    font-size: 24px;
+    margin-left: 10px;
+    color: #1a8e4e;
+}
+
+.button-section .btn {
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.btn-success {
+    background-color: #87c540;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #6c9e34;
+}
+
+/*donate registration form*/
+
+/*body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }*/
+  
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    
+    background-color: #1529d6;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #faf7f7;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #23527c;
+  }
+  body {
+    background-color: #f0a500;
+}
+
+.form-container {
+    background-color: #9de4b8;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+label {
+    color: rgb(81, 20, 223);
+}
+
+/* Global body styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+}
+
+/* General Navbar styling */
+.navbar-container {
+    background-color: #8979e2; /* Navbar background */
+    /* padding: 1%; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-and-title {
+    display: flex;
+    align-items: center;
+}
+
+.imglog {
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+/* Centering nav-items */
+.navbar-center {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;  
+}
+
+.nav-item {
+    list-style-type: none;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.nav-link:hover {
+    color: #f0f0f0;
+}
+
+/* Button Section */
+.button-section .btn {
+    font-size: 18px;
+    padding: 4px 20px;
+    background-color: #87c540;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #6c9e34;
+}
+
+/* Hide the full navbar and show the toggle button on smaller screens */
+@media (max-width: 992px) {
+    .navbar-center, .button-section {
+        display: none;
+    }
+
+    .navbar-toggler {
+        display: block;
+        color: white;
+        border: none;
+    }
+    .navbar-brand{
+        font-size: 17px;
+    }
+}
+
+/* Adjust navbar for mobile and tablet when toggled */
+.collapse {
+    display: none;
+}
+
+.collapse.show {
+    display: flex;
+    flex-direction: column;
+    background-color: #8979e2;
+    padding: 10px;
+}
+
+.collapse .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.collapse .nav-link {
+    padding: 10px;
+    text-align: center;
+}
+
+.collapse .btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/*volunteer Registration*/
+  /* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    
+}
+
+/*.volreg{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: hwb(352 54% 7%);
+}
+*/
+/* Container */
+/*.container {
+    background-color: #dedbe7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(8, 255, 111, 0.1);
+    max-width: 500px;
+    width: 100%;
+}*/
+
+
+
+/* Adjust the vertical alignment */
+.volreg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Remove the 100vh height to stop the page from stretching */
+    padding-top: 50px; /* Add some padding at the top */
+    padding-bottom: 50px; /* Add some padding at the bottom to avoid content touching the edges */
+    margin: 0;
+}
+
+/* Fix container positioning */
+.container {
+    background-color: #dedbe7;
+    padding: 30px; /* Increase padding slightly */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(8, 255, 111, 0.1);
+    max-width: 500px;
+    width: 100%;
+    margin: 20px auto; /* Center the container */
+}
+
+/* Fix heading margin */
+.container h1 {
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 20px; /* Add a bit more space under the heading */
+    margin-top: 20px;
+}
+
+
+/* Heading */
+/*.container h1 {
+    text-align: center;
+    color:whitesmoke;
+    margin-bottom: 20px;
+}
+*/
+/* Form Elements */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+
+/* Placeholder Color */
+form input::placeholder,
+form textarea::placeholder {
+    color: #aaa;
+}
+
+/* Dropdown */
+form select {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* Button */
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    form input,
+    form select,
+    form textarea {
+        font-size: 14px;
+    }
+
+    .submit-btn {
+        font-size: 14px;
+    }
+}
+/*images*/
+ /* Custom styles for carousel */
+ /* Custom styles for carousel */
+.carousel-caption {
+    position: absolute;
+    left: 50%; /* Center horizontally */
+    top: 50%; /* Center vertically */
+    transform: translate(-50%, -50%); /* Center alignment */
+    text-align: center; /* Center text alignment */
+    color: #fff;
+}
+
+.carousel-caption h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.carousel-caption p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.carousel-caption .btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.carousel-caption .btn:hover {
+    background-color: #45a049;
+}
+
+/* Make sure the images cover the entire carousel */
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    max-height: 90vh; /* Ensures height doesn't exceed the view */
+}
+
+/* Responsive font sizes */
+@media (max-width: 780px) {
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+    .carousel-caption .btn {
+        font-size: 1rem;
+    }
+}
+
+
+*{
+    margin: 0px;
+}
+body{
+    background-color: blanchedalmond;
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
+p{
+    margin: 10px;
+}
+.collab{
+display:flex;
+flex-direction: column;
+/* border: 1px solid black; */
+padding: 100px;
+}
+.c1{
+    margin: 20px;
+    border: 1px solid black;
+}
+.hide{
+    display: none;
+    transition: opacity 0.10s ease;
+}
+.view{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.hide.visible {
+    display: block;
+    padding: 20px;
+
+}
+
+.who-we-are {
+    text-align: center;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 18px;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: left;
+    padding: 20px;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .card-content {
+    padding: 15px;
+  }
+  
+  .card-content h3 {
+    font-size: 20px;
+    color: #5ca33b;
+    margin-bottom: 15px;
+  }
+  
+  .card-content p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .read-more {
+    text-decoration: none;
+    color: #5ca33b;
+    font-weight: bold;
+  }
+  
+  .read-more:hover {
+    text-decoration: underline;
+  }
+  
