@@ -9,6 +9,7 @@ import Navbar from './Navbar';
 import FormPage from './FormPage';
 import VolunteerForm from './Volunteer';
 import Header from './Header';
+import Organisation  from './Organisation';
 
 
 const App = () => {
@@ -25,6 +26,8 @@ const App = () => {
                 <Route path="/contact" element={<ContactUs />} />
                 <Route path="/formPage" element={<FormPage />} />
                 <Route path="/volunteer" element={<VolunteerForm />} />
+                <Route path="/Organisation" element={<Organisation />} />
+
             </Routes>
         </Router>
     );

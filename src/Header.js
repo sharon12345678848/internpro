@@ -9,7 +9,7 @@ function Header() {
       'div',
       { className: 'logo-section' },
       React.createElement('img', {
-        src: `${process.env.PUBLIC_URL}/images/logo.jpg`,
+        src: `${process.env.PUBLIC_URL}/logo.jpg`,
         alt: 'Logo',
         className: 'imglog',
       })
@@ -28,7 +28,12 @@ function Header() {
         'a',
         { href: './Volunteer', className: 'btn btn-success mx-2' },
         'Volunteer'
-      )
+      ),
+      React.createElement(
+        'a',
+        { href: './Organisation', className: 'btn btn-success mx-2' },
+        'Donate'
+      ),
     )
   );
 }

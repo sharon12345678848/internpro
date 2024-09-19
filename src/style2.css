@@ -1,0 +1,140 @@
+/* General body styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    font-size: 2.2rem;
+  }
+  
+  .collab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  /* Collaboration section styling */
+  .c1 {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    margin: 15px 0;
+    padding: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Heading and button alignment */
+  .view {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin: 0;
+  }
+  
+  .toggle-btn {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Paragraph visibility toggle */
+  .hide {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .hide.visible {
+    display: block;
+    opacity: 1;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  hr {
+    margin: 10px 0;
+    border: 1px solid #ddd;
+  }
+  
+  /* Button styling for details */
+  .btn {
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .c1 {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 1.6rem;
+    }
+  
+    .toggle-btn, .btn {
+      font-size: 0.9rem;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+    }
+  }
+  .toggle-btn {
+    padding: 4px 8px; /* Reduced padding */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%; /* Makes the button round */
+    font-size: 1.2rem; /* Adjust font-size as needed */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 30px; /* Fixed width */
+    height: 30px; /* Fixed height to make it a perfect circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .toggle-btn:hover {
+    background-color: #0056b3;
+  }
+  

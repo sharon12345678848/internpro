@@ -24,14 +24,14 @@ function Carousel() {
       captionTitle: 'Join Our Community',
       captionText: 'Be part of something greater and connect with others.',
       btnText: 'Organization',
-      btnLink: './organisation.html',
+      btnLink: './organisation',
     },
     {
       imgSrc: `${process.env.PUBLIC_URL}/images/img4.jpg`,
       captionTitle: 'Join Our Community',
       captionText: 'Be part of something greater and connect with others.',
       btnText: 'Organization',
-      btnLink: './organisation.html',
+      btnLink: './organisation',
     },
   ];
 

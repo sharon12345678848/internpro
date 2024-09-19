@@ -313,7 +313,7 @@ form label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-    color: #333;
+    color: #e41d1d;
 }
 
 form input,
@@ -430,7 +430,7 @@ form select {
 }
 
 
-*{
+/*{
     margin: 0px;
 }
 body{
@@ -445,9 +445,9 @@ p{
 }
 .collab{
 display:flex;
-flex-direction: column;
+flex-direction: column;*/
 /* border: 1px solid black; */
-padding: 100px;
+/*padding: 100px;
 }
 .c1{
     margin: 20px;
@@ -467,7 +467,7 @@ padding: 100px;
     padding: 20px;
 
 }
-
+*/
 .who-we-are {
     text-align: center;
     padding: 40px;
@@ -538,4 +538,5 @@ padding: 100px;
   .read-more:hover {
     text-decoration: underline;
   }
+  
   

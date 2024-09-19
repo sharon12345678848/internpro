@@ -6,7 +6,7 @@ function WhoWeAre() {
     <div className="who-we-are">
       <h1 className="title">WHO WE ARE?</h1>
       <p className="description">
-        Established in 2014 with a mission to ‘inspire and empower dreams’, Wishes and Blessings is a registered NGO
+        A mission to ‘inspire and empower dreams’, Wishes and Blessings is a registered NGO
         that has emerged as a unique platform for helping the underprivileged. We aim to spread blessings and fulfill
         wishes by linking beneficiaries with donors. We work across the spectrum of society surpassing age and gender
         barriers on diverse causes including education, health, skill development, and relief.
@@ -15,7 +15,7 @@ function WhoWeAre() {
       <div className="cards">
         {/* Our Story */}
         <div className="card">
-          <img src="/images/mission.jpeg" alt="Our Story" className="card-img" />
+          <img src={process.env.PUBLIC_URL + '/images/mission.jpeg'} alt="Our Story" className="card-img" />
           <div className="card-content">
             <h3>Our Story</h3>
             <p>
@@ -28,7 +28,7 @@ function WhoWeAre() {
 
         {/* Our Vision */}
         <div className="card">
-          <img src="/images/vision.jpeg" alt="Our Vision" className="card-img" />
+          <img src={process.env.PUBLIC_URL + '/images/vision.jpeg'} alt="Our Vision" className="card-img" />
           <div className="card-content">
             <h3>Our Vision</h3>
             <p>
@@ -40,7 +40,7 @@ function WhoWeAre() {
 
         {/* Our Values */}
         <div className="card">
-          <img src="/images/values.jpeg" alt="Our Values" className="card-img" />
+          <img src={process.env.PUBLIC_URL + '/images/values.jpeg'} alt="Our Values" className="card-img" />
           <div className="card-content">
             <h3>Our Values</h3>
             <p>

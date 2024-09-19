@@ -33,7 +33,8 @@ function Navbar() {
 
         <div className="button-section">
           <a href="./FormPage" className="btn btn-success mx-2">Donate</a>
-          <a href="./volunteer.html" className="btn btn-success mx-2">Volunteer</a>
+          <a href="./volunteer" className="btn btn-success mx-2">Volunteer</a>
+          <a href="./Organisation" className="btn btn-success mx-2">Organisation</a>
         </div>
 
         <button className="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,7 +60,10 @@ function Navbar() {
             <a href="./FormPage" className="nav-link btn btn-success">Donate</a>
           </li>
           <li className="nav-item">
-            <a href="./volunteer.html" className="nav-link btn btn-success">Volunteer</a>
+            <a href="./volunteer" className="nav-link btn btn-success">Volunteer</a>
+          </li>
+          <li className="nav-item">
+            <a href="./Organisation" className="nav-link btn btn-success">Organisation</a>
           </li>
         </ul>
       </div>
