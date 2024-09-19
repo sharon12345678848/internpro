@@ -1,8 +1,6 @@
 // Home.js
 import React from 'react';
-import Header from'./Header';
 import Carousel from './Carousel';
-import { Link } from 'react-router-dom';
 import WhoWeAre from './who';
 //import ContactUs from './ContactUs';
 

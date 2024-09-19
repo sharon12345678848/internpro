@@ -1,0 +1,81 @@
+/* General Styles for the Organisation Form */
+.organisation-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f4f8;
+}
+
+/* Form Box */
+.login-box {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Input fields styled as lines */
+.form-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* Label position above the line */
+.form-group label {
+  font-size: 14px;
+  color: #555;
+  position: absolute;
+  top: -20px;
+  left: 0;
+}
+
+/* Input with only bottom border */
+.form-control {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ccc;  /* Creates the line */
+  padding: 5px 0;
+  background: none;
+  font-size: 16px;
+  color: #333;
+  transition: border-bottom 0.3s;
+}
+
+/* Placeholder styling */
+.form-control::placeholder {
+  color: #aaa;
+  font-size: 14px;
+}
+
+/* Focus effect */
+.form-control:focus {
+  outline: none;
+  border-bottom: 2px solid #007bff;  /* Change the line color on focus */
+}
+
+/* Submit Button */
+.btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}

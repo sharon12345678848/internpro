@@ -181,9 +181,16 @@ body {
 }
 
 /* Button Section */
+.button-section{
+    display:flex;
+    display-direction:row;
+}
+
 .button-section .btn {
     font-size: 18px;
     padding: 4px 20px;
+    display:flex;
+    display-direction:row;
     background-color: #87c540;
     border: none;
 }
