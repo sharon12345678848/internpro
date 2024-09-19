@@ -4,13 +4,11 @@ import MissionImg from './images/mission.jpeg'; // Check the path
 import VisionImg from './images/vision.jpeg';
 import ValuesImg from './images/values.jpeg'; // Ensure values.jpeg exists
 
-import './about.css'; // Import the CSS file
-
 const About = () => {
   return (
-    <div className="about-container">
-      <h1 className="about-title">About Us</h1>
-      <div className="card-container">
+    <div className="text-center py-12 px-4">
+      <h1 className="text-4xl font-bold mb-10">About Us</h1>
+      <div className="flex flex-col items-center gap-8 ">
         <Card 
           imgSrc={MissionImg}
           imgAlt="Our Mission"

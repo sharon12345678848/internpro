@@ -1,13 +1,10 @@
 import React from 'react';
-import './about.css'; // Import the CSS file for Card component
 
 const Card = ({ imgSrc, imgAlt, text }) => {
   return (
-    <div className="card">
-      <img src={imgSrc} alt={imgAlt} className="card-image" />
-      <div className="card-content">
-        <p>{text}</p>
-      </div>
+    <div className="bg-white rounded-lg shadow-lg w-full max-w-[1100px] flex items-center p-4">
+      <img src={imgSrc} alt={imgAlt} className="w-[250px] h-[250px] rounded-md mr-4" />
+      <p className="flex-1 text-gray-700">{text}</p>
     </div>
   );
 };
