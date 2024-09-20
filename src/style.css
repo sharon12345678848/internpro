@@ -547,3 +547,14 @@ flex-direction: column;*/
   }
   
   
+
+ /* src/Footer.css */
+.footer {
+  background-color: #282c34;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}

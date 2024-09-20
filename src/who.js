@@ -20,9 +20,9 @@ function WhoWeAre() {
             <h3>Our Story</h3>
             <p>
               “An ambiguous mix of excitement and nervousness is what I recall to be the overwhelming sentiment when
-              I first established Wishes and Blessings in April 2014.”
+              Wishes and Blessings ”
             </p>
-            <a href="/our-story" className="read-more">Read More &#187;</a>
+            {/*<a href="/our-story" className="read-more">Read More &#187;</a>*/}
           </div>
         </div>
 
@@ -34,7 +34,7 @@ function WhoWeAre() {
             <p>
               Our vision is to build a world with equal opportunities where the word ‘underprivileged’ no longer exists...
             </p>
-            <a href="/our-vision" className="read-more">Read More &#187;</a>
+            {/*<a href="/our-vision" className="read-more">Read More &#187;</a>*/}
           </div>
         </div>
 
@@ -46,7 +46,7 @@ function WhoWeAre() {
             <p>
               Our core values include accountability, transparency, integrity, and personal involvement. We exercise these values in all our activities.
             </p>
-            <a href="/our-values" className="read-more">Read More &#187;</a>
+            {/*<a href="/our-values" className="read-more">Read More &#187;</a>*/}
           </div>
         </div>
       </div>
