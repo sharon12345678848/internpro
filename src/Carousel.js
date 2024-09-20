@@ -6,32 +6,32 @@ function Carousel() {
 
   const slides = [
     {
-      imgSrc: `${process.env.PUBLIC_URL}/images/img1.jpg`,
-      /*captionTitle: 'Welcome to Our Website',
+      imgSrc: '/images/volunteer.jpg', // Use a relative path to images
+      captionTitle: 'Welcome to Our Website',
       captionText: 'Discover our amazing features and content.',
       btnText: 'Donate',
-      btnLink: './FormPage',*/
+      btnLink: './FormPage',
     },
     {
-      imgSrc: `${process.env.PUBLIC_URL}/images/img2.jpg`,
-      /*captionTitle: 'Explore Our Services',
+      imgSrc: '/images/img2.jpg',
+      captionTitle: 'Explore Our Services',
       captionText: 'We provide a wide range of solutions tailored for you.',
       btnText: 'Volunteer',
-      btnLink: './volunteer',*/
+      btnLink: './volunteer',
     },
     {
-      imgSrc: `${process.env.PUBLIC_URL}/images/img3.jpg`,
-      /*captionTitle: 'Join Our Community',
+      imgSrc: '/images/img3.jpg',
+      captionTitle: 'Join Our Community',
       captionText: 'Be part of something greater and connect with others.',
       btnText: 'Organization',
-      btnLink: './organisation',*/
+      btnLink: './organisation',
     },
     {
-      imgSrc: `${process.env.PUBLIC_URL}/images/img4.jpg`,
-      /*captionTitle: 'Join Our Community',
+      imgSrc: '/images/img4.jpg',
+      captionTitle: 'Join Our Community',
       captionText: 'Be part of something greater and connect with others.',
       btnText: 'Organization',
-      btnLink: './organisation',*/
+      btnLink: './organisation',
     },
   ];
 
@@ -70,7 +70,7 @@ function Carousel() {
             <div className="carousel-caption d-none d-md-block">
               <h1>{slide.captionTitle}</h1>
               <p>{slide.captionText}</p>
-              <a href={slide.btnLink} className="btn">
+              <a href={slide.btnLink} className="btn btn-primary">
                 {slide.btnText}
               </a>
             </div>
@@ -85,7 +85,7 @@ function Carousel() {
         onClick={handlePrev}
       >
         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span className="visually-hidden"></span>
+        <span className="visually-hidden">Previous</span>
       </button>
       <button
         className="carousel-control-next"
@@ -93,11 +93,10 @@ function Carousel() {
         onClick={handleNext}
       >
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
-        <span className="visually-hidden"></span>
+        <span className="visually-hidden">Next</span>
       </button>
     </div>
   );
 }
 
 export default Carousel;
- 

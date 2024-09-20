@@ -31,7 +31,7 @@ const App = () => {
                 <Route path="/Organisation" element={<Organisation />} />
 
             </Routes>
-            <Footer/>
+            
         </Router>
         
     );
