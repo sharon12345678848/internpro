@@ -56,9 +56,9 @@ const Collaboration = () => {
                         <div className={`hide ${visible[index] ? 'visible' : ''}`}>
                             <hr />
                             <p>{section.description}</p>
-                            <button className="btn" type="button">
+                           {/* <button className="btn" type="button">
                                 Click here for more details
-                            </button>
+                            </button>*/}
                         </div>
                     </div>
                 ))}

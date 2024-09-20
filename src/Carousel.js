@@ -6,32 +6,32 @@ function Carousel() {
 
   const slides = [
     {
-      imgSrc: '/images/volunteer.jpg', // Use a relative path to images
-      captionTitle: 'Welcome to Our Website',
+      imgSrc: '/images/volunteering.jpg', // Use a relative path to images
+      /*captionTitle: 'Welcome to Our Website',
       captionText: 'Discover our amazing features and content.',
       btnText: 'Donate',
-      btnLink: './FormPage',
+      btnLink: './FormPage',*/
     },
     {
       imgSrc: '/images/img2.jpg',
-      captionTitle: 'Explore Our Services',
+      /*captionTitle: 'Explore Our Services',
       captionText: 'We provide a wide range of solutions tailored for you.',
       btnText: 'Volunteer',
-      btnLink: './volunteer',
+      btnLink: './volunteer',*/
     },
     {
       imgSrc: '/images/img3.jpg',
-      captionTitle: 'Join Our Community',
+      /*captionTitle: 'Join Our Community',
       captionText: 'Be part of something greater and connect with others.',
       btnText: 'Organization',
-      btnLink: './organisation',
+      btnLink: './organisation',*/
     },
     {
       imgSrc: '/images/img4.jpg',
-      captionTitle: 'Join Our Community',
+      /*captionTitle: 'Join Our Community',
       captionText: 'Be part of something greater and connect with others.',
       btnText: 'Organization',
-      btnLink: './organisation',
+      btnLink: './organisation',*/
     },
   ];
 
@@ -85,7 +85,7 @@ function Carousel() {
         onClick={handlePrev}
       >
         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Previous</span>
+        <span className="visually-hidden"></span>
       </button>
       <button
         className="carousel-control-next"
@@ -93,7 +93,7 @@ function Carousel() {
         onClick={handleNext}
       >
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Next</span>
+        <span className="visually-hidden"></span>
       </button>
     </div>
   );

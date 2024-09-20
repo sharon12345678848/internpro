@@ -183,7 +183,7 @@ function VolunteerForm() {
 
   return (
     <div className="container mt-5">
-      <h1 className="text-center">Volunteer Registration</h1>
+      <h1 className="text-center text-dark">Volunteer Registration</h1>
       <div className="form-container p-5">
         {submitted ? (
           <div className="alert alert-success" role="alert">

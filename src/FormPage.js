@@ -244,7 +244,7 @@ function FormPage() {
 
   return (
     <div className="container mt-5">
-      <h1 className="text-center">Donate Now</h1>
+      <h1 className="text-center text-dark">Donate Now</h1>
       <div className="form-container p-5">
         {submitted ? (
           <div className="alert alert-success" role="alert">

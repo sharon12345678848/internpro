@@ -9,7 +9,7 @@ import Navbar from './Navbar';
 import FormPage from './FormPage';
 import VolunteerForm from './Volunteer';
 import Organisation  from './Organisation';
-import Footer from './Footer';
+//import Footer from './Footer';
 
 
 const App = () => {

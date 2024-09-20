@@ -3,7 +3,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
-  background-color:rgb(209, 203, 203);
 }
 
 /* Container Styles */
@@ -35,6 +34,7 @@ body {
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
+  color: black;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
